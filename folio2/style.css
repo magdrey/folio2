@@ -6,14 +6,14 @@
 header{position: fixed; top: 0;left: 0; z-index: 1; width: 100%;}
 .hamburger ,.close{display: none; height: 20px; width: 20px;}
 .logo-name{text-decoration: none; color: black; font-weight: bold ;}
-.nav-cont{  display: flex; justify-content: space-between; background-color:plum;}
+.nav-cont{  display: flex; justify-content: space-between; background-color: white;}
 .nav-menu{display: flex;}
 li{list-style: none;}
-#about{background-color: rgb(255, 168, 255);}
-#contact{background-color: rgb(252, 181, 252);}
-#folio{background-color: rgb(255, 146, 255);}
+#about{background-color: snow;}
+#contact{background-color: white;}
+#folio{background-color: white;}
 
-#home{top: 0; background-color: rgb(250, 204, 250);
+#home{top: 0; background-color: white;
     
     height: 100vh;
 }
@@ -28,8 +28,8 @@ li{list-style: none;}
 .foot-group{border-bottom: 2px solid gray;}
 .made-by{margin: 5%; text-align: center;}
 .bttn{background-color: plum;}
-.form-input{background-color: rgb(252, 181, 252);}
-.form-msg{ background-color:  rgb(252, 181, 252);}
+.form-input{background-color: white;}
+.form-msg{ background-color:  white;}
 
 
 @media only screen and  (max-width:480px) {
@@ -110,9 +110,9 @@ li{list-style: none;}
                 box-shadow: rgb(100 100 111 / 20%) 0 0.7rem 2.9rem 0;
             background-color: white; padding: 10px; text-align: left;
             }
-            .form-input{text-align: center; width: 80%;}
-            .form-msg{width: 85%; padding-left: 1%;}
-            .form-cont .bttn{width: 85%;}
+            .form-input{text-align: center; width: 100%;}
+            .form-msg{width: 100%; padding-left: 1%;}
+            .form-cont .bttn{width: 100%;}
 
             #foot{padding: 15% 6%;}
             .fo-txt{font-size: 14px;}
@@ -137,7 +137,7 @@ li{list-style: none;}
 
     /* about page*/
     #about{ padding-left: 30px; padding-right: 30px; 
-        padding-top: 70px;  text-align: center;}
+        padding-top: 90px;  text-align: center;}
         h2{font-size: 30px; font-weight: bolder; margin-bottom: 20px;}
         h3{font-size: 28px; margin-bottom: 13px; font-weight:bolder;}
        .amp{font-size: 20px;}
@@ -156,20 +156,20 @@ li{list-style: none;}
         }
         /* folio */
         #folio{ padding-left: 40px; padding-right: 40px; 
-            padding-top: 70px;  text-align: center;}
+            padding-top: 90px;  text-align: center;}
             .p-img{width: 100%; padding: 15px; }
             .project{padding-bottom: 50px;}
 
              /* contact Form*/
         #contact{padding-left: 40px; padding-right: 40px;
-            padding-top: 60px;  text-align: center;}
+            padding-top: 90px;  text-align: center;}
             .form-cont{ margin-top: 30px; border-radius: 3%;
                 box-shadow: rgb(100 100 111 / 20%) 0 0.7rem 2.9rem 0;
             background-color: white; padding: 10px; text-align: left;
             }
-            .form-input{text-align: center; width: 80%;}
-            .form-msg{width: 85%; padding-left: 1%;}
-            .form-cont .bttn{width: 85%;}
+            .form-input{text-align: center; width: 100%;}
+            .form-msg{width: 100%; padding-left: 1%;}
+            .form-cont .bttn{width: 100%;}
 
             #foot{padding: 15% 6%;}
             .fo-txt{font-size: 14px;}
@@ -202,7 +202,7 @@ p{font-size: 30px;}
 
      /* about page*/
      #about{ padding-left: 40px;  
-        padding-top: 60px;  text-align: center;}
+        padding-top: 90px;  text-align: center;}
         h2{font-size: 40px; font-weight: bolder; margin-bottom: 20px;}
         h3{font-size: 28px; margin-bottom: 13px; font-weight:bolder;}
        .amp{font-size: 20px;}
@@ -223,14 +223,14 @@ p{font-size: 30px;}
         }
  /* folio */
  #folio{ padding-left: 40px; padding-right: 40px; 
-    padding-top: 70px;  text-align: center;}
+    padding-top: 90px;  text-align: center;}
     .p-img{width: 50%; padding: 15px; margin-right: 5%;}
     .p-name{width: 50%; padding: 15px; margin-left: 5%; text-align: left;}
     .project{padding-bottom: 60px; display: flex;}
 
      /* contact Form*/
      #contact{padding-left: 40px; padding-right: 40px;
-        padding-top: 60px;  text-align: center;}
+        padding-top: 90px;  text-align: center;}
         .form-cont{ margin-top: 30px; border-radius: 3%; margin-right: 15%; margin-left: 15%; 
             box-shadow: rgb(100 100 111 / 20%) 0 0.7rem 2.9rem 0;
         background-color: white; padding: 60px; text-align: left;
